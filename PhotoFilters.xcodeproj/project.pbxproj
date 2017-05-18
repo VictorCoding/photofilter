@@ -13,6 +13,7 @@
 		F59E24AE1ECD5B4A0010E609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59E24AD1ECD5B4A0010E609 /* Assets.xcassets */; };
 		F59E24B11ECD5B4A0010E609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59E24AF1ECD5B4A0010E609 /* LaunchScreen.storyboard */; };
 		F59E24BC1ECD5B4A0010E609 /* PhotoFiltersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E24BB1ECD5B4A0010E609 /* PhotoFiltersTests.swift */; };
+		F59E24C71ECD5CDC0010E609 /* Gannondorf.png in Resources */ = {isa = PBXBuildFile; fileRef = F59E24C61ECD5CDC0010E609 /* Gannondorf.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F59E24B71ECD5B4A0010E609 /* PhotoFiltersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFiltersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59E24BB1ECD5B4A0010E609 /* PhotoFiltersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFiltersTests.swift; sourceTree = "<group>"; };
 		F59E24BD1ECD5B4A0010E609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59E24C61ECD5CDC0010E609 /* Gannondorf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Gannondorf.png; path = ../../../Gallery/Gannondorf.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		F59E24A51ECD5B4A0010E609 /* PhotoFilters */ = {
 			isa = PBXGroup;
 			children = (
+				F59E24C61ECD5CDC0010E609 /* Gannondorf.png */,
 				F59E24A61ECD5B4A0010E609 /* AppDelegate.swift */,
 				F59E24A81ECD5B4A0010E609 /* ViewController.swift */,
 				F59E24AA1ECD5B4A0010E609 /* Main.storyboard */,
@@ -146,6 +149,7 @@
 				TargetAttributes = {
 					F59E24A21ECD5B4A0010E609 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4L5T5JK53Q;
 						ProvisioningStyle = Automatic;
 					};
 					F59E24B61ECD5B4A0010E609 = {
@@ -180,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F59E24B11ECD5B4A0010E609 /* LaunchScreen.storyboard in Resources */,
+				F59E24C71ECD5CDC0010E609 /* Gannondorf.png in Resources */,
 				F59E24AE1ECD5B4A0010E609 /* Assets.xcassets in Resources */,
 				F59E24AC1ECD5B4A0010E609 /* Main.storyboard in Resources */,
 			);
@@ -341,9 +346,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4L5T5JK53Q;
 				INFOPLIST_FILE = PhotoFilters/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.PhotoFilters;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PhotoFiltersTwo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -353,9 +359,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4L5T5JK53Q;
 				INFOPLIST_FILE = PhotoFilters/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.PhotoFilters;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PhotoFiltersTwo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
